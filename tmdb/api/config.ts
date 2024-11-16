@@ -28,6 +28,7 @@ const defaultHeaders: Record<string, string> = {
  */
 const defaultParams: Record<string, string> = {
   language: "en-US",
+  api_key: process.env.TMDB_KEY!,
 }
 
 /**

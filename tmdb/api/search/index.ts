@@ -23,7 +23,7 @@ const multi = async ({
   api.fetcher<
     ListResponse<MovieWithMediaType | TvShowWithMediaType | PersonWithMediaType>
   >({
-    endpoint: "/search/multi",
+    endpoint: "search/multi",
     params: {
       query,
       page,
